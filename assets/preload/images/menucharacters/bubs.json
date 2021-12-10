@@ -1,0 +1,11 @@
+{
+	
+	"image": "bubs",
+	"position": [
+		-300,
+		-20
+	],
+	"scale": 1,
+	"idle_anim": "Pibby idle",
+	"confirm_anim": "Pibby idle"
+}

@@ -1,0 +1,11 @@
+{
+	
+	"image": "ppgbubs",
+	"position": [
+		0,
+		-80
+	],
+	"scale": 1,
+	"idle_anim": "Bubbles idle",
+	"confirm_anim": "Bubbles idle"
+}

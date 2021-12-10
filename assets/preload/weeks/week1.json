@@ -1,0 +1,31 @@
+{
+	"storyName": "Townsville Terror",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "townsville",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Dissonance",
+			"pibby icons",
+			[
+				100,
+				40,
+				180
+			]
+		]
+	],
+	"weekCharacters": [
+		"ppgbubs",
+		"bubs",
+		""
+	],
+	"weekName": "Townsvill"
+}
