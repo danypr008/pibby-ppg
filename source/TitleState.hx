@@ -282,6 +282,7 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
+		logoBl.screenCenter(X);
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
@@ -309,7 +310,6 @@ class TitleState extends MusicBeatState
 			gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 	
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
-		add(gfDance);
 		gfDance.shader = swagShader.shader;
 		add(logoBl);
 		//logoBl.shader = swagShader.shader;
@@ -366,7 +366,7 @@ class TitleState extends MusicBeatState
 		logoSpr.visible = false;
 		logoSpr.setGraphicSize(Std.int(logoSpr.width * 0.55));
 		logoSpr.updateHitbox();
-		logoSpr.screenCenter(X);
+		logoSpr.screenCenter(Y);
 		logoSpr.antialiasing = ClientPrefs.globalAntialiasing;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});

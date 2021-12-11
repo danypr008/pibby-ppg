@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-172,
-				-110
+				-175,
+				-134
 			],
 			"anim": "deathConfirm",
 			"fps": 24,
@@ -123,8 +123,8 @@
 		},
 		{
 			"offsets": [
-				-172,
-				-110
+				-175,
+				-134
 			],
 			"indices": [],
 			"fps": 24,
